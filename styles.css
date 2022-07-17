@@ -12,7 +12,11 @@ body {
   overflow-x: hidden;
 }
 
-/* NAV */
+/* 
+
+NAV 
+
+*/
 
 nav {
   height: 80px;
@@ -149,7 +153,17 @@ button:active {
   margin: 0 auto;
 }
 
-/* HIGHLIGHTS */
+.row__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 
+
+HIGHLIGHTS 
+
+*/
 
 #highlights {
   position: relative;
@@ -214,7 +228,11 @@ button:active {
   margin-bottom: 16px;
 }
  
-/* FEATURES */
+/* 
+
+FEATURES
+
+*/
 
 #features {
   padding-top: 8vw;
@@ -223,6 +241,7 @@ button:active {
 
 .books {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .book {
@@ -260,11 +279,21 @@ button:active {
 
 .book__ratings {
   margin-bottom: 8px;
-  color: #fabf2a
+  color: #fabf2a;
 }
 
 .book__price--normal {
   text-decoration: line-through;
   padding-right: 6px;
   color: #bfbfbf
+}
+
+/*
+
+EXPLORE 
+
+*/
+
+#explore {
+  background-color: rgba(115, 66, 214, 0.1);
 }
